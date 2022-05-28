@@ -6,35 +6,68 @@
 }
 
 header{
-    width: 100%;
-    /* border: solid blue; */
+    height: 43vw;
+    background-image:url(./assets/fundoHead.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:flex-end;
 }
 
-.deadStar img{
+.container_wordHeader{
     width: 100%;
-}
-
-.container_logo--starWars{
-    width: 72%;
+    height: 6vw;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    top: 23.45vw;
-    right: 142px;
+    padding: 0 8.8vw 0 18.5vw;
+    margin-bottom: 13.65vw;
 }
 
-.container_logo--starWars img{
-    width: 25.5vw;
-    height: 12vh;
+.word_Star{
+    width: 24vw;
+}
+
+.word_Wars{
+    width: 26vw;
+}
+
+.kyloRen{
+    position: absolute;
+    top:0;
+    left: 9.8%;
+    width: 70vw;
 }
 
 .kyloRen img{
-    width: 68.5vw;
-    height: 110vh;
+    width: 70vw;
 }
-.kyloRen{
-    /* border: solid yellow; */
+
+.container_startLegion{
     position: absolute;
-    top: 0px;
-    right: 296px;
+    text-transform:uppercase;
+    margin-right: 11.5vw;
+    width: 10%;
+
+}
+
+/* AQUI COMECA O BODY */
+
+.first_container--main{
+    background-image: url(./assets/robo.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:75vw;
+}
+
+.container_download{
+}
+
+.start_game{
+    width: 20.5vw;
+    height: 30.5vw;
+    background-image: url(./assets/comeceJogar.png);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
